@@ -40,7 +40,7 @@ model.summary()
 
 history = model.fit(x_train, y_train, batch_size=25, epochs=300, validation_split = 0.2)
 ~~~
-<img src="/Users/yuwenchen/Desktop/PCV3/loss2.png" width="250"> <img src="/Users/yuwenchen/Desktop/PCV3/acc2.png" width="250">
+<img src="https://github.com/Chen21697/Pokemon-Classifier-V3/blob/master/diagrams/loss2.png" width="250"> <img src="https://github.com/Chen21697/Pokemon-Classifier-V3/blob/master/diagrams/acc2.png" width="250">
 
 Turned out the performance on training set did increase (accuracy is almost 1) and the model approximately converged at 200 epoch. Still the performance on validation set is not well.
 
@@ -60,7 +60,7 @@ model.summary()
 
 history = model.fit(x_train, y_train, batch_size=20, epochs=epochs, validation_split = 0.2)
 ~~~
- <img src="/Users/yuwenchen/Desktop/PCV3/loss3.png" width="250"> <img src="/Users/yuwenchen/Desktop/PCV3/acc3.png" width="250">
+ <img src="https://github.com/Chen21697/Pokemon-Classifier-V3/blob/master/diagrams/loss3.png" width="250"> <img src="https://github.com/Chen21697/Pokemon-Classifier-V3/blob/master/diagrams/acc3.png" width="250">
 
 ### Forth trial
 
@@ -81,7 +81,7 @@ model.summary()
 
 history = model.fit(x_train, y_train, batch_size=25, epochs=epochs, validation_split = 0.2)
 ~~~
-<img src="/Users/yuwenchen/Desktop/PCV3/loss4.png" width="250"> <img src="/Users/yuwenchen/Desktop/PCV3/acc4.png" width="250">
+<img src="https://github.com/Chen21697/Pokemon-Classifier-V3/blob/master/diagrams/loss4.png" width="250"> <img src="https://github.com/Chen21697/Pokemon-Classifier-V3/blob/master/diagrams/acc4.png" width="250">
 
 It's normal that the performance on training set drops after applying Dropout. The accuracy on validation set increased up to 0.78.
 Also the loss on validation set was no longer increasing but decreasing gradually.
