@@ -24,7 +24,7 @@ model.summary()
 
 history = model.fit(x_train, y_train, batch_size=25, epochs=150, validation_split = 0.2)
 ~~~
-<img src="/Users/yuwenchen/Desktop/PCV3/loss1.png" width="250"> <img src="/Users/yuwenchen/Desktop/PCV3/acc1.png" width="250">
+<img src="https://github.com/Chen21697/Pokemon-Classifier-V3/blob/master/diagrams/loss1.png" width="250"> <img src="https://github.com/Chen21697/Pokemon-Classifier-V3/blob/master/diagrams/acc1.png" width="250">
 
 ### Second trial
 
